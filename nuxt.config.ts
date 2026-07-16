@@ -2,7 +2,7 @@ const baseURL = process.env.NUXT_APP_BASE_URL || "/"
 
 export default defineNuxtConfig({
   compatibilityDate: "2026-07-14",
-  devtools: { enabled: true },
+  devtools: { enabled: false },
   css: ["~/assets/css/main.css"],
   modules: ["@nuxtjs/tailwindcss"],
   app: {
